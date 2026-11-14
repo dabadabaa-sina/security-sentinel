@@ -1,0 +1,14 @@
+{
+  "name": "security-sentinel",
+  "version": "1.0.0",
+  "description": "AI agent skill/plugin/repo 安全审查：提示注入、恶意代码、凭证窃取与供应链投毒检测。安装或升级插件/skill 前的安全门禁。",
+  "keywords": ["security", "audit", "prompt-injection", "supply-chain", "plugin-security", "skill-security"],
+  "license": "MIT",
+  "homepage": "https://github.com/dabadabaa-sina/security-sentinel",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security Sentinel",
+    "shortDescription": "审计 skill / 插件 / 仓库的注入与投毒风险",
+    "longDescription": "五步法静态安全审查：攻击面清点、危险模式扫描、提示词语义审查、供应链核查、分级报告。零 hooks、零 MCP、零 systemPrompt 注入——本插件自身即按最高安全标准构建。"
+  }
+}
